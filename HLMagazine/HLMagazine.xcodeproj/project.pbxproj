@@ -15,6 +15,7 @@
 		782C6FE41CF0AE940032A10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782C6FE21CF0AE940032A10D /* LaunchScreen.storyboard */; };
 		782C6FEF1CF0AE940032A10D /* HLMagazineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FEE1CF0AE940032A10D /* HLMagazineTests.m */; };
 		782C6FFA1CF0AE940032A10D /* HLMagazineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FF91CF0AE940032A10D /* HLMagazineUITests.m */; };
+		CECE3F96CAA6C220CBCDA84C /* libPods-HLMagazine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0989E0E44A233738881F9ED8 /* libPods-HLMagazine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0989E0E44A233738881F9ED8 /* libPods-HLMagazine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLMagazine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66AAC08F72FEA7B718DD44AF /* Pods-HLMagazine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMagazine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLMagazine/Pods-HLMagazine.debug.xcconfig"; sourceTree = "<group>"; };
 		782C6FD11CF0AE940032A10D /* HLMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782C6FD51CF0AE940032A10D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		782C6FD71CF0AE940032A10D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		782C6FF51CF0AE940032A10D /* HLMagazineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMagazineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782C6FF91CF0AE940032A10D /* HLMagazineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMagazineUITests.m; sourceTree = "<group>"; };
 		782C6FFB1CF0AE940032A10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782C70241CF0B2970032A10D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9ACBBCED42148F5A60FACE32 /* Pods-HLMagazine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMagazine.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLMagazine/Pods-HLMagazine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECE3F96CAA6C220CBCDA84C /* libPods-HLMagazine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AC767112BF781385E6ADC30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66AAC08F72FEA7B718DD44AF /* Pods-HLMagazine.debug.xcconfig */,
+				9ACBBCED42148F5A60FACE32 /* Pods-HLMagazine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		782C6FC81CF0AE940032A10D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,8 @@
 				782C6FED1CF0AE940032A10D /* HLMagazineTests */,
 				782C6FF81CF0AE940032A10D /* HLMagazineUITests */,
 				782C6FD21CF0AE940032A10D /* Products */,
+				6AC767112BF781385E6ADC30 /* Pods */,
+				C4175FB61469B5CACD82C1D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +118,10 @@
 		782C6FD31CF0AE940032A10D /* HLMagazine */ = {
 			isa = PBXGroup;
 			children = (
+				782C70071CF0B21D0032A10D /* 工具 */,
+				782C70091CF0B21D0032A10D /* 其他 */,
+				782C700A1CF0B21D0032A10D /* 用户中心 */,
+				782C70161CF0B21D0032A10D /* 主页 */,
 				782C6FD71CF0AE940032A10D /* AppDelegate.h */,
 				782C6FD81CF0AE940032A10D /* AppDelegate.m */,
 				782C6FDA1CF0AE940032A10D /* ViewController.h */,
@@ -140,6 +161,243 @@
 			path = HLMagazineUITests;
 			sourceTree = "<group>";
 		};
+		782C70071CF0B21D0032A10D /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				782C70231CF0B2850032A10D /* 配置文件 */,
+				782C70211CF0B25C0032A10D /* 本地初始数据源 */,
+				782C70221CF0B25C0032A10D /* 分类 */,
+				782C70081CF0B21D0032A10D /* 第三方 */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		782C70081CF0B21D0032A10D /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "第三方";
+			sourceTree = "<group>";
+		};
+		782C70091CF0B21D0032A10D /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		782C700A1CF0B21D0032A10D /* 用户中心 */ = {
+			isa = PBXGroup;
+			children = (
+				782C700B1CF0B21D0032A10D /* 用户事件 */,
+				782C70101CF0B21D0032A10D /* 用户信息 */,
+				782C70151CF0B21D0032A10D /* 设置 */,
+			);
+			path = "用户中心";
+			sourceTree = "<group>";
+		};
+		782C700B1CF0B21D0032A10D /* 用户事件 */ = {
+			isa = PBXGroup;
+			children = (
+				782C700C1CF0B21D0032A10D /* 摘录 */,
+				782C700D1CF0B21D0032A10D /* 收藏 */,
+				782C700E1CF0B21D0032A10D /* 浏览记录 */,
+				782C700F1CF0B21D0032A10D /* 订阅 */,
+			);
+			path = "用户事件";
+			sourceTree = "<group>";
+		};
+		782C700C1CF0B21D0032A10D /* 摘录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "摘录";
+			sourceTree = "<group>";
+		};
+		782C700D1CF0B21D0032A10D /* 收藏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "收藏";
+			sourceTree = "<group>";
+		};
+		782C700E1CF0B21D0032A10D /* 浏览记录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "浏览记录";
+			sourceTree = "<group>";
+		};
+		782C700F1CF0B21D0032A10D /* 订阅 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "订阅";
+			sourceTree = "<group>";
+		};
+		782C70101CF0B21D0032A10D /* 用户信息 */ = {
+			isa = PBXGroup;
+			children = (
+				782C70111CF0B21D0032A10D /* 忘记密码 */,
+				782C70121CF0B21D0032A10D /* 注册 */,
+				782C70131CF0B21D0032A10D /* 用户详情 */,
+				782C70141CF0B21D0032A10D /* 登录 */,
+			);
+			path = "用户信息";
+			sourceTree = "<group>";
+		};
+		782C70111CF0B21D0032A10D /* 忘记密码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "忘记密码";
+			sourceTree = "<group>";
+		};
+		782C70121CF0B21D0032A10D /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		782C70131CF0B21D0032A10D /* 用户详情 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "用户详情";
+			sourceTree = "<group>";
+		};
+		782C70141CF0B21D0032A10D /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		782C70151CF0B21D0032A10D /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		782C70161CF0B21D0032A10D /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				782C70171CF0B21D0032A10D /* 开机动画和开机广告 */,
+				782C70181CF0B21D0032A10D /* 根控制器 */,
+				782C701B1CF0B21D0032A10D /* 频道控制器 */,
+				782C701E1CF0B21D0032A10D /* 频道新闻Cell */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		782C70171CF0B21D0032A10D /* 开机动画和开机广告 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "开机动画和开机广告";
+			sourceTree = "<group>";
+		};
+		782C70181CF0B21D0032A10D /* 根控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				782C70191CF0B21D0032A10D /* 图片 */,
+				782C701A1CF0B21D0032A10D /* 控制器 */,
+			);
+			path = "根控制器";
+			sourceTree = "<group>";
+		};
+		782C70191CF0B21D0032A10D /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		782C701A1CF0B21D0032A10D /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "控制器";
+			sourceTree = "<group>";
+		};
+		782C701B1CF0B21D0032A10D /* 频道控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				782C701C1CF0B21D0032A10D /* 图片 */,
+				782C701D1CF0B21D0032A10D /* 所有频道控制器 */,
+			);
+			path = "频道控制器";
+			sourceTree = "<group>";
+		};
+		782C701C1CF0B21D0032A10D /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		782C701D1CF0B21D0032A10D /* 所有频道控制器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "所有频道控制器";
+			sourceTree = "<group>";
+		};
+		782C701E1CF0B21D0032A10D /* 频道新闻Cell */ = {
+			isa = PBXGroup;
+			children = (
+				782C701F1CF0B21D0032A10D /* Cell */,
+				782C70201CF0B21D0032A10D /* 图片 */,
+			);
+			path = "频道新闻Cell";
+			sourceTree = "<group>";
+		};
+		782C701F1CF0B21D0032A10D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		782C70201CF0B21D0032A10D /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		782C70211CF0B25C0032A10D /* 本地初始数据源 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "本地初始数据源";
+			sourceTree = "<group>";
+		};
+		782C70221CF0B25C0032A10D /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		782C70231CF0B2850032A10D /* 配置文件 */ = {
+			isa = PBXGroup;
+			children = (
+				782C70241CF0B2970032A10D /* PrefixHeader.pch */,
+			);
+			path = "配置文件";
+			sourceTree = "<group>";
+		};
+		C4175FB61469B5CACD82C1D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0989E0E44A233738881F9ED8 /* libPods-HLMagazine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +405,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 782C6FFE1CF0AE940032A10D /* Build configuration list for PBXNativeTarget "HLMagazine" */;
 			buildPhases = (
+				EE2ED8CA2D1BCB6795C51D9E /* 📦 Check Pods Manifest.lock */,
 				782C6FCD1CF0AE940032A10D /* Sources */,
 				782C6FCE1CF0AE940032A10D /* Frameworks */,
 				782C6FCF1CF0AE940032A10D /* Resources */,
+				9450BF0725C527804517C57C /* 📦 Embed Pods Frameworks */,
+				E643D802CDD5F96CE274D7F6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +525,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9450BF0725C527804517C57C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLMagazine/Pods-HLMagazine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E643D802CDD5F96CE274D7F6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLMagazine/Pods-HLMagazine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2ED8CA2D1BCB6795C51D9E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		782C6FCD1CF0AE940032A10D /* Sources */ = {
@@ -413,8 +722,10 @@
 		};
 		782C6FFF1CF0AE940032A10D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66AAC08F72FEA7B718DD44AF /* Pods-HLMagazine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLMagazine/工具/配置文件/PrefixHeader.pch";
 				INFOPLIST_FILE = HLMagazine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jim.HLMagazine;
@@ -424,8 +735,10 @@
 		};
 		782C70001CF0AE940032A10D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACBBCED42148F5A60FACE32 /* Pods-HLMagazine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HLMagazine/工具/配置文件/PrefixHeader.pch";
 				INFOPLIST_FILE = HLMagazine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jim.HLMagazine;
@@ -498,6 +811,7 @@
 				782C70001CF0AE940032A10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782C70011CF0AE940032A10D /* Build configuration list for PBXNativeTarget "HLMagazineTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +820,7 @@
 				782C70031CF0AE940032A10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782C70041CF0AE940032A10D /* Build configuration list for PBXNativeTarget "HLMagazineUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +829,7 @@
 				782C70061CF0AE940032A10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
