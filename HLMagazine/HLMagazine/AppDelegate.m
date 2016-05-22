@@ -7,12 +7,64 @@
 //
 
 #import "AppDelegate.h"
+#import "HLDrawerVisualStateManager.h"
+#import "MMDrawerController.h"
+#import "HLNavigationController.h"
+#import "HLChannelRootVC.h"
+#import "HLUserVC.h"
 
 @interface AppDelegate ()
+@property (nonatomic,strong) MMDrawerController * drawerController;
 
 @end
 
 @implementation AppDelegate
+-(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    
+    [self.dk_manager dawnComing];
+    
+    /*
+     *  频道主控制器
+     */
+    UIViewController *channelRootVC =[[HLChannelRootVC alloc]initWithNibName:nil bundle:nil];
+    UINavigationController *channelRootNavigationVC = [[HLNavigationController alloc]initWithRootViewController:channelRootVC];
+    [channelRootNavigationVC setRestorationIdentifier:@"HLChannelRootVC"];
+    
+    HLUserVC *userCenterVC =[[HLUserVC alloc] initWithNibName:nil bundle:nil];
+    UINavigationController *userCenterNavigationVC = [[HLNavigationController alloc]initWithRootViewController:userCenterVC];
+    [userCenterNavigationVC setRestorationIdentifier:@"HLUserVC"];
+    
+    
+    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:channelRootNavigationVC rightDrawerViewController:userCenterNavigationVC];
+    [self.drawerController setShowsShadow:NO];
+    
+    [self.drawerController setRestorationIdentifier:@"MMDrawer"];
+    [self.drawerController setMaximumRightDrawerWidth:200.0];
+    [self.drawerController setMaximumLeftDrawerWidth:200.0];
+    
+    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeNone];
+    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeNone];
+    
+    [self.drawerController
+     setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
+         MMDrawerControllerDrawerVisualStateBlock block;
+         block = [[HLDrawerVisualStateManager sharedManager]
+                  drawerVisualStateBlockForDrawerSide:drawerSide];
+         if(block){
+             block(drawerController, drawerSide, percentVisible);
+         }
+     }];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    UIColor * tintColor = [UIColor colorWithRed:29.0/255.0
+                                          green:173.0/255.0
+                                           blue:234.0/255.0
+                                          alpha:1.0];
+    [self.window setTintColor:tintColor];
+    
+    [self.window setRootViewController:self.drawerController];
+    return YES;
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

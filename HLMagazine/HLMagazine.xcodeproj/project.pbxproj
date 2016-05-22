@@ -15,6 +15,14 @@
 		782C6FE41CF0AE940032A10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782C6FE21CF0AE940032A10D /* LaunchScreen.storyboard */; };
 		782C6FEF1CF0AE940032A10D /* HLMagazineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FEE1CF0AE940032A10D /* HLMagazineTests.m */; };
 		782C6FFA1CF0AE940032A10D /* HLMagazineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FF91CF0AE940032A10D /* HLMagazineUITests.m */; };
+		78BB74D11CF153D600B0049B /* HLChannelRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74CF1CF153D600B0049B /* HLChannelRootVC.m */; };
+		78BB74D21CF153D600B0049B /* HLChannelRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB74D01CF153D600B0049B /* HLChannelRootVC.xib */; };
+		78BB74D61CF1540400B0049B /* HXWRecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74D41CF1540400B0049B /* HXWRecommendedVC.m */; };
+		78BB74D71CF1540400B0049B /* HXWRecommendedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB74D51CF1540400B0049B /* HXWRecommendedVC.xib */; };
+		78BB74E01CF154C700B0049B /* HLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74DF1CF154C700B0049B /* HLNavigationController.m */; };
+		78BB74E41CF1557400B0049B /* HLDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74E31CF1557400B0049B /* HLDrawerVisualStateManager.m */; };
+		78BB74EB1CF157CB00B0049B /* HLUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74E71CF157CB00B0049B /* HLUserVC.m */; };
+		78BB74EC1CF157CB00B0049B /* HLUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB74E81CF157CB00B0049B /* HLUserVC.xib */; };
 		CECE3F96CAA6C220CBCDA84C /* libPods-HLMagazine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0989E0E44A233738881F9ED8 /* libPods-HLMagazine.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +63,19 @@
 		782C6FF91CF0AE940032A10D /* HLMagazineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMagazineUITests.m; sourceTree = "<group>"; };
 		782C6FFB1CF0AE940032A10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782C70241CF0B2970032A10D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		78BB74CE1CF153D600B0049B /* HLChannelRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChannelRootVC.h; sourceTree = "<group>"; };
+		78BB74CF1CF153D600B0049B /* HLChannelRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChannelRootVC.m; sourceTree = "<group>"; };
+		78BB74D01CF153D600B0049B /* HLChannelRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLChannelRootVC.xib; sourceTree = "<group>"; };
+		78BB74D31CF1540400B0049B /* HXWRecommendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRecommendedVC.h; sourceTree = "<group>"; };
+		78BB74D41CF1540400B0049B /* HXWRecommendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRecommendedVC.m; sourceTree = "<group>"; };
+		78BB74D51CF1540400B0049B /* HXWRecommendedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWRecommendedVC.xib; sourceTree = "<group>"; };
+		78BB74DE1CF154C700B0049B /* HLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNavigationController.h; sourceTree = "<group>"; };
+		78BB74DF1CF154C700B0049B /* HLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNavigationController.m; sourceTree = "<group>"; };
+		78BB74E21CF1557400B0049B /* HLDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		78BB74E31CF1557400B0049B /* HLDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		78BB74E61CF157CB00B0049B /* HLUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLUserVC.h; sourceTree = "<group>"; };
+		78BB74E71CF157CB00B0049B /* HLUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLUserVC.m; sourceTree = "<group>"; };
+		78BB74E81CF157CB00B0049B /* HLUserVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLUserVC.xib; sourceTree = "<group>"; };
 		9ACBBCED42148F5A60FACE32 /* Pods-HLMagazine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMagazine.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLMagazine/Pods-HLMagazine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +210,7 @@
 		782C700A1CF0B21D0032A10D /* 用户中心 */ = {
 			isa = PBXGroup;
 			children = (
+				78BB74D81CF1544400B0049B /* 用户 */,
 				782C700B1CF0B21D0032A10D /* 用户事件 */,
 				782C70101CF0B21D0032A10D /* 用户信息 */,
 				782C70151CF0B21D0032A10D /* 设置 */,
@@ -302,6 +324,7 @@
 		782C70181CF0B21D0032A10D /* 根控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				78BB74E11CF1553500B0049B /* 管理器 */,
 				782C70191CF0B21D0032A10D /* 图片 */,
 				782C701A1CF0B21D0032A10D /* 控制器 */,
 			);
@@ -318,6 +341,11 @@
 		782C701A1CF0B21D0032A10D /* 控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				78BB74CE1CF153D600B0049B /* HLChannelRootVC.h */,
+				78BB74CF1CF153D600B0049B /* HLChannelRootVC.m */,
+				78BB74D01CF153D600B0049B /* HLChannelRootVC.xib */,
+				78BB74DE1CF154C700B0049B /* HLNavigationController.h */,
+				78BB74DF1CF154C700B0049B /* HLNavigationController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -341,6 +369,9 @@
 		782C701D1CF0B21D0032A10D /* 所有频道控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				78BB74D31CF1540400B0049B /* HXWRecommendedVC.h */,
+				78BB74D41CF1540400B0049B /* HXWRecommendedVC.m */,
+				78BB74D51CF1540400B0049B /* HXWRecommendedVC.xib */,
 			);
 			path = "所有频道控制器";
 			sourceTree = "<group>";
@@ -388,6 +419,49 @@
 				782C70241CF0B2970032A10D /* PrefixHeader.pch */,
 			);
 			path = "配置文件";
+			sourceTree = "<group>";
+		};
+		78BB74D81CF1544400B0049B /* 用户 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB74E51CF157CB00B0049B /* 控制器 */,
+				78BB74E91CF157CB00B0049B /* 视图 */,
+				78BB74EA1CF157CB00B0049B /* 图片 */,
+			);
+			path = "用户";
+			sourceTree = "<group>";
+		};
+		78BB74E11CF1553500B0049B /* 管理器 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB74E21CF1557400B0049B /* HLDrawerVisualStateManager.h */,
+				78BB74E31CF1557400B0049B /* HLDrawerVisualStateManager.m */,
+			);
+			path = "管理器";
+			sourceTree = "<group>";
+		};
+		78BB74E51CF157CB00B0049B /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB74E61CF157CB00B0049B /* HLUserVC.h */,
+				78BB74E71CF157CB00B0049B /* HLUserVC.m */,
+				78BB74E81CF157CB00B0049B /* HLUserVC.xib */,
+			);
+			path = "控制器";
+			sourceTree = "<group>";
+		};
+		78BB74E91CF157CB00B0049B /* 视图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "视图";
+			sourceTree = "<group>";
+		};
+		78BB74EA1CF157CB00B0049B /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片";
 			sourceTree = "<group>";
 		};
 		C4175FB61469B5CACD82C1D2 /* Frameworks */ = {
@@ -504,9 +578,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BB74D71CF1540400B0049B /* HXWRecommendedVC.xib in Resources */,
 				782C6FE41CF0AE940032A10D /* LaunchScreen.storyboard in Resources */,
 				782C6FE11CF0AE940032A10D /* Assets.xcassets in Resources */,
+				78BB74D21CF153D600B0049B /* HLChannelRootVC.xib in Resources */,
 				782C6FDF1CF0AE940032A10D /* Main.storyboard in Resources */,
+				78BB74EC1CF157CB00B0049B /* HLUserVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,8 +656,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BB74E41CF1557400B0049B /* HLDrawerVisualStateManager.m in Sources */,
+				78BB74EB1CF157CB00B0049B /* HLUserVC.m in Sources */,
 				782C6FDC1CF0AE940032A10D /* ViewController.m in Sources */,
 				782C6FD91CF0AE940032A10D /* AppDelegate.m in Sources */,
+				78BB74D11CF153D600B0049B /* HLChannelRootVC.m in Sources */,
+				78BB74D61CF1540400B0049B /* HXWRecommendedVC.m in Sources */,
+				78BB74E01CF154C700B0049B /* HLNavigationController.m in Sources */,
 				782C6FD61CF0AE940032A10D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
