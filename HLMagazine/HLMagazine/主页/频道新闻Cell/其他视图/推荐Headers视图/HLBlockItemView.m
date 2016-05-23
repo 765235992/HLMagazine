@@ -10,12 +10,24 @@
 
 @implementation HLBlockItemView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self addSubview:self.newsThumbImageView];
+        
+    }
+    return self;
 }
-*/
+- (HLImageView *)newsThumbImageView
+{
+    if (!_newsThumbImageView) {
+        
+        self.newsThumbImageView = [[HLImageView alloc] initWithFrame:self.bounds];
+        
+//        _newsThumbImageView.image = [UIImage imageNamed:@"defaultImage"];
+    }
+    return _newsThumbImageView;
+}
 
 @end

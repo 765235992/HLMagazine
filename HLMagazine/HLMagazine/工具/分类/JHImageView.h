@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface JHImageView : UIView
+@property (strong, nonatomic) IBOutlet UIView *view;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *nightMaskImageView;
 
 @end

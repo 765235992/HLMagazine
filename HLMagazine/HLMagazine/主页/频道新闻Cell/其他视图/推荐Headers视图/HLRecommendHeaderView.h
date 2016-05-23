@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HLRecommendSliderView.h"
+#import "HLRecommendBlockView.h"
 
 @interface HLRecommendHeaderView : UIView
+
+@property (nonatomic, strong) HLRecommendSliderView *sliderView;
+
+@property (nonatomic, strong) HLRecommendBlockView *blockView;
 
 @end

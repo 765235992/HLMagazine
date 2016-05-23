@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface HLChannelNewsModel : NSObject
-
+@property (nonatomic, strong) NSString *newsTitle;
+@property (nonatomic, strong) NSString *newsThumb;
 @end

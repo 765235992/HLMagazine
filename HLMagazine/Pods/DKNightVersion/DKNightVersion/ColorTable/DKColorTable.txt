@@ -4,3 +4,11 @@ NORMAL   NIGHT    RED
 #0000ff  #ffffff  #fa0000 TINT
 #000000  #ffffff  #000000 TEXT
 #ffffff  #444444  #ffffff BAR
+#B22222  #B22222  #ffffff navigationBar颜色
+#FFFFFF  #4A4A4A  #000000 频道选择背景颜色
+#4A4A4A  #FFFFFF  #000000 频道未选择字体颜色
+#CD2626  #CD2626  #CD2626 频道已选择字体颜色
+0xFFFFFF  0x4A4A4A  0x000000 频道控制器背景颜色
+0xFFFFFF  0x4A4A4A  0x000000 新闻列表Cell背景颜色
+0xD3D3D3  #8B8989  0xD3D3D3 新闻列表Cell分割线颜色
+0x4A4A4A  #FFFFFF  0xD3D3D3 新闻列表Cell标题颜色

@@ -7,7 +7,6 @@
 //
 
 #import "LJHShufflingCell.h"
-#import "LJHShufflingImageRequestHelper.h"
 #import "UIImageView+WebCache.h"
 
 #define pageControlHeight 20
@@ -17,7 +16,6 @@
 
 @interface LJHShufflingCell ()
 
-@property (nonatomic, strong) LJHShufflingImageRequestHelper *requestHelper;
 
 @property (nonatomic, strong) UIImageView *maskImageView;
 
@@ -48,15 +46,6 @@
     return self;
 }
 
-- (LJHShufflingImageRequestHelper *)requestHelper
-{
-    if (!_requestHelper) {
-        
-        self.requestHelper = [[LJHShufflingImageRequestHelper alloc] init];
-    }
-    
-    return _requestHelper;
-}
 
 - (UIImageView *)maskImageView
 {
@@ -98,15 +87,5 @@
     
     [self sd_setImageWithURL:[NSURL URLWithString:shufflingModel.newsThumbStr] placeholderImage:shufflingModel.newsDefaultImage];
     
-//    self.image = shufflingModel.newsDefaultImage;
-//    
-//    
-//    [self.requestHelper loadImageWithImageURL:shufflingModel.newsThumbStr imageDownloadSecuessed:^(UIImage *image) {
-//        
-//        self.image = image;
-//        
-//    } andFailed:^(NSError *failedError) {
-//        
-//    }];
 }
 @end

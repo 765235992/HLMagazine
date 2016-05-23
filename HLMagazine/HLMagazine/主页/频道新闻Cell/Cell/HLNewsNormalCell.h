@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HLChannelNewsModel.h"
+#import "HLImageView.h"
 @interface HLNewsNormalCell : UITableViewCell
+@property (strong, nonatomic) HLChannelNewsModel *channelNewsModel;
+@property (weak, nonatomic) IBOutlet HLImageView *newsThumbImageView;
 
+
+@property (weak, nonatomic) IBOutlet UIImageView *newsDividerLineImageView;
+
+@property (weak, nonatomic) IBOutlet UILabel *newsTitleLabel;
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "HLUserVC.h"
+#import "HLImageView.h"
 
 @interface HLUserVC ()
 
@@ -19,6 +20,14 @@
     // Do any additional setup after loading the view from its nib.
     self.view.backgroundColor = [UIColor yellowColor];
     self.navigationController.navigationBarHidden = YES;
+    NSBundle *bundle=[NSBundle mainBundle];
+    NSArray *objs=[bundle loadNibNamed:@"HLImageView" owner:nil options:nil];
+    
+    HLImageView *im = [objs lastObject];
+    NSLog(@"%@",im);
+    im.frame = CGRectMake(10, 50, 100, 100);
+    im.backgroundColor = [UIColor redColor];
+    [self.view addSubview:im];
 
 }
 

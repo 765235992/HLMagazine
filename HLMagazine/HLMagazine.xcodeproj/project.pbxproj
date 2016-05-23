@@ -17,12 +17,32 @@
 		782C6FFA1CF0AE940032A10D /* HLMagazineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FF91CF0AE940032A10D /* HLMagazineUITests.m */; };
 		78BB74D11CF153D600B0049B /* HLChannelRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74CF1CF153D600B0049B /* HLChannelRootVC.m */; };
 		78BB74D21CF153D600B0049B /* HLChannelRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB74D01CF153D600B0049B /* HLChannelRootVC.xib */; };
-		78BB74D61CF1540400B0049B /* HXWRecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74D41CF1540400B0049B /* HXWRecommendedVC.m */; };
-		78BB74D71CF1540400B0049B /* HXWRecommendedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB74D51CF1540400B0049B /* HXWRecommendedVC.xib */; };
 		78BB74E01CF154C700B0049B /* HLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74DF1CF154C700B0049B /* HLNavigationController.m */; };
 		78BB74E41CF1557400B0049B /* HLDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74E31CF1557400B0049B /* HLDrawerVisualStateManager.m */; };
 		78BB74EB1CF157CB00B0049B /* HLUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74E71CF157CB00B0049B /* HLUserVC.m */; };
 		78BB74EC1CF157CB00B0049B /* HLUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB74E81CF157CB00B0049B /* HLUserVC.xib */; };
+		78BB74FA1CF1592A00B0049B /* JHContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74EF1CF1592A00B0049B /* JHContentView.m */; };
+		78BB74FB1CF1592A00B0049B /* JHCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74F11CF1592A00B0049B /* JHCustomLabel.m */; };
+		78BB74FC1CF1592A00B0049B /* JHScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74F31CF1592A00B0049B /* JHScrollPageView.m */; };
+		78BB74FD1CF1592A00B0049B /* JHScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74F51CF1592A00B0049B /* JHScrollSegmentView.m */; };
+		78BB74FE1CF1592A00B0049B /* JHSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74F71CF1592A00B0049B /* JHSegmentStyle.m */; };
+		78BB74FF1CF1592A00B0049B /* UIView+JHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB74F91CF1592A00B0049B /* UIView+JHFrame.m */; };
+		78BB75031CF15A2700B0049B /* HLRecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75011CF15A2700B0049B /* HLRecommendedVC.m */; };
+		78BB75041CF15A2700B0049B /* HLRecommendedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB75021CF15A2700B0049B /* HLRecommendedVC.xib */; };
+		78BB75081CF15F5D00B0049B /* HLNewsNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75061CF15F5D00B0049B /* HLNewsNormalCell.m */; };
+		78BB75091CF15F5D00B0049B /* HLNewsNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB75071CF15F5D00B0049B /* HLNewsNormalCell.xib */; };
+		78BB750D1CF1629300B0049B /* HLChannelNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB750C1CF1629300B0049B /* HLChannelNewsModel.m */; };
+		78BB75131CF16ED100B0049B /* HLRecommendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75121CF16ED100B0049B /* HLRecommendHeaderView.m */; };
+		78BB75161CF16EF000B0049B /* HLRecommendSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75151CF16EF000B0049B /* HLRecommendSliderView.m */; };
+		78BB75191CF16F0600B0049B /* HLRecommendBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75181CF16F0600B0049B /* HLRecommendBlockView.m */; };
+		78BB75281CF1728100B0049B /* LJHShufflingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75221CF1728100B0049B /* LJHShufflingModel.m */; };
+		78BB75291CF1728100B0049B /* LJHBaseShufflingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75251CF1728100B0049B /* LJHBaseShufflingView.m */; };
+		78BB752A1CF1728100B0049B /* LJHShufflingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75271CF1728100B0049B /* LJHShufflingCell.m */; };
+		78BB752D1CF174BA00B0049B /* HLBlockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB752C1CF174BA00B0049B /* HLBlockItemView.m */; };
+		78BB75301CF17F0300B0049B /* HLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB752F1CF17F0300B0049B /* HLImageView.m */; };
+		78BB75361CF19BC000B0049B /* HLImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB75351CF19BC000B0049B /* HLImageView.xib */; };
+		78BB75421CF1EE4600B0049B /* JHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB75411CF1EE4600B0049B /* JHImageView.m */; };
+		78BB75441CF1EE5300B0049B /* JHImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BB75431CF1EE5300B0049B /* JHImageView.xib */; };
 		CECE3F96CAA6C220CBCDA84C /* libPods-HLMagazine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0989E0E44A233738881F9ED8 /* libPods-HLMagazine.a */; };
 /* End PBXBuildFile section */
 
@@ -66,9 +86,6 @@
 		78BB74CE1CF153D600B0049B /* HLChannelRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChannelRootVC.h; sourceTree = "<group>"; };
 		78BB74CF1CF153D600B0049B /* HLChannelRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChannelRootVC.m; sourceTree = "<group>"; };
 		78BB74D01CF153D600B0049B /* HLChannelRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLChannelRootVC.xib; sourceTree = "<group>"; };
-		78BB74D31CF1540400B0049B /* HXWRecommendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRecommendedVC.h; sourceTree = "<group>"; };
-		78BB74D41CF1540400B0049B /* HXWRecommendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRecommendedVC.m; sourceTree = "<group>"; };
-		78BB74D51CF1540400B0049B /* HXWRecommendedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWRecommendedVC.xib; sourceTree = "<group>"; };
 		78BB74DE1CF154C700B0049B /* HLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNavigationController.h; sourceTree = "<group>"; };
 		78BB74DF1CF154C700B0049B /* HLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNavigationController.m; sourceTree = "<group>"; };
 		78BB74E21CF1557400B0049B /* HLDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLDrawerVisualStateManager.h; sourceTree = "<group>"; };
@@ -76,6 +93,46 @@
 		78BB74E61CF157CB00B0049B /* HLUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLUserVC.h; sourceTree = "<group>"; };
 		78BB74E71CF157CB00B0049B /* HLUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLUserVC.m; sourceTree = "<group>"; };
 		78BB74E81CF157CB00B0049B /* HLUserVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLUserVC.xib; sourceTree = "<group>"; };
+		78BB74EE1CF1592A00B0049B /* JHContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHContentView.h; sourceTree = "<group>"; };
+		78BB74EF1CF1592A00B0049B /* JHContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHContentView.m; sourceTree = "<group>"; };
+		78BB74F01CF1592A00B0049B /* JHCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCustomLabel.h; sourceTree = "<group>"; };
+		78BB74F11CF1592A00B0049B /* JHCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCustomLabel.m; sourceTree = "<group>"; };
+		78BB74F21CF1592A00B0049B /* JHScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScrollPageView.h; sourceTree = "<group>"; };
+		78BB74F31CF1592A00B0049B /* JHScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScrollPageView.m; sourceTree = "<group>"; };
+		78BB74F41CF1592A00B0049B /* JHScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScrollSegmentView.h; sourceTree = "<group>"; };
+		78BB74F51CF1592A00B0049B /* JHScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScrollSegmentView.m; sourceTree = "<group>"; };
+		78BB74F61CF1592A00B0049B /* JHSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSegmentStyle.h; sourceTree = "<group>"; };
+		78BB74F71CF1592A00B0049B /* JHSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSegmentStyle.m; sourceTree = "<group>"; };
+		78BB74F81CF1592A00B0049B /* UIView+JHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHFrame.h"; sourceTree = "<group>"; };
+		78BB74F91CF1592A00B0049B /* UIView+JHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHFrame.m"; sourceTree = "<group>"; };
+		78BB75001CF15A2700B0049B /* HLRecommendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRecommendedVC.h; sourceTree = "<group>"; };
+		78BB75011CF15A2700B0049B /* HLRecommendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRecommendedVC.m; sourceTree = "<group>"; };
+		78BB75021CF15A2700B0049B /* HLRecommendedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLRecommendedVC.xib; sourceTree = "<group>"; };
+		78BB75051CF15F5D00B0049B /* HLNewsNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNewsNormalCell.h; sourceTree = "<group>"; };
+		78BB75061CF15F5D00B0049B /* HLNewsNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNewsNormalCell.m; sourceTree = "<group>"; };
+		78BB75071CF15F5D00B0049B /* HLNewsNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLNewsNormalCell.xib; sourceTree = "<group>"; };
+		78BB750B1CF1629300B0049B /* HLChannelNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLChannelNewsModel.h; sourceTree = "<group>"; };
+		78BB750C1CF1629300B0049B /* HLChannelNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLChannelNewsModel.m; sourceTree = "<group>"; };
+		78BB75111CF16ED100B0049B /* HLRecommendHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRecommendHeaderView.h; sourceTree = "<group>"; };
+		78BB75121CF16ED100B0049B /* HLRecommendHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRecommendHeaderView.m; sourceTree = "<group>"; };
+		78BB75141CF16EF000B0049B /* HLRecommendSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRecommendSliderView.h; sourceTree = "<group>"; };
+		78BB75151CF16EF000B0049B /* HLRecommendSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRecommendSliderView.m; sourceTree = "<group>"; };
+		78BB75171CF16F0600B0049B /* HLRecommendBlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLRecommendBlockView.h; sourceTree = "<group>"; };
+		78BB75181CF16F0600B0049B /* HLRecommendBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLRecommendBlockView.m; sourceTree = "<group>"; };
+		78BB75211CF1728100B0049B /* LJHShufflingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHShufflingModel.h; sourceTree = "<group>"; };
+		78BB75221CF1728100B0049B /* LJHShufflingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHShufflingModel.m; sourceTree = "<group>"; };
+		78BB75241CF1728100B0049B /* LJHBaseShufflingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHBaseShufflingView.h; sourceTree = "<group>"; };
+		78BB75251CF1728100B0049B /* LJHBaseShufflingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHBaseShufflingView.m; sourceTree = "<group>"; };
+		78BB75261CF1728100B0049B /* LJHShufflingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHShufflingCell.h; sourceTree = "<group>"; };
+		78BB75271CF1728100B0049B /* LJHShufflingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHShufflingCell.m; sourceTree = "<group>"; };
+		78BB752B1CF174BA00B0049B /* HLBlockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBlockItemView.h; sourceTree = "<group>"; };
+		78BB752C1CF174BA00B0049B /* HLBlockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBlockItemView.m; sourceTree = "<group>"; };
+		78BB752E1CF17F0300B0049B /* HLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLImageView.h; sourceTree = "<group>"; };
+		78BB752F1CF17F0300B0049B /* HLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLImageView.m; sourceTree = "<group>"; };
+		78BB75351CF19BC000B0049B /* HLImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLImageView.xib; sourceTree = "<group>"; };
+		78BB75401CF1EE4600B0049B /* JHImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHImageView.h; sourceTree = "<group>"; };
+		78BB75411CF1EE4600B0049B /* JHImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHImageView.m; sourceTree = "<group>"; };
+		78BB75431CF1EE5300B0049B /* JHImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHImageView.xib; sourceTree = "<group>"; };
 		9ACBBCED42148F5A60FACE32 /* Pods-HLMagazine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLMagazine.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLMagazine/Pods-HLMagazine.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -196,6 +253,7 @@
 		782C70081CF0B21D0032A10D /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				78BB74ED1CF1592A00B0049B /* 频道切换视图 */,
 			);
 			path = "第三方";
 			sourceTree = "<group>";
@@ -310,6 +368,7 @@
 				782C70181CF0B21D0032A10D /* 根控制器 */,
 				782C701B1CF0B21D0032A10D /* 频道控制器 */,
 				782C701E1CF0B21D0032A10D /* 频道新闻Cell */,
+				78BB750A1CF1620F00B0049B /* 频道新闻数据 */,
 			);
 			path = "主页";
 			sourceTree = "<group>";
@@ -369,9 +428,9 @@
 		782C701D1CF0B21D0032A10D /* 所有频道控制器 */ = {
 			isa = PBXGroup;
 			children = (
-				78BB74D31CF1540400B0049B /* HXWRecommendedVC.h */,
-				78BB74D41CF1540400B0049B /* HXWRecommendedVC.m */,
-				78BB74D51CF1540400B0049B /* HXWRecommendedVC.xib */,
+				78BB75001CF15A2700B0049B /* HLRecommendedVC.h */,
+				78BB75011CF15A2700B0049B /* HLRecommendedVC.m */,
+				78BB75021CF15A2700B0049B /* HLRecommendedVC.xib */,
 			);
 			path = "所有频道控制器";
 			sourceTree = "<group>";
@@ -379,6 +438,7 @@
 		782C701E1CF0B21D0032A10D /* 频道新闻Cell */ = {
 			isa = PBXGroup;
 			children = (
+				78BB750E1CF16DAF00B0049B /* 其他视图 */,
 				782C701F1CF0B21D0032A10D /* Cell */,
 				782C70201CF0B21D0032A10D /* 图片 */,
 			);
@@ -388,6 +448,9 @@
 		782C701F1CF0B21D0032A10D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				78BB75051CF15F5D00B0049B /* HLNewsNormalCell.h */,
+				78BB75061CF15F5D00B0049B /* HLNewsNormalCell.m */,
+				78BB75071CF15F5D00B0049B /* HLNewsNormalCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -409,6 +472,12 @@
 		782C70221CF0B25C0032A10D /* 分类 */ = {
 			isa = PBXGroup;
 			children = (
+				78BB752E1CF17F0300B0049B /* HLImageView.h */,
+				78BB752F1CF17F0300B0049B /* HLImageView.m */,
+				78BB75351CF19BC000B0049B /* HLImageView.xib */,
+				78BB75401CF1EE4600B0049B /* JHImageView.h */,
+				78BB75411CF1EE4600B0049B /* JHImageView.m */,
+				78BB75431CF1EE5300B0049B /* JHImageView.xib */,
 			);
 			path = "分类";
 			sourceTree = "<group>";
@@ -462,6 +531,103 @@
 			children = (
 			);
 			path = "图片";
+			sourceTree = "<group>";
+		};
+		78BB74ED1CF1592A00B0049B /* 频道切换视图 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB74EE1CF1592A00B0049B /* JHContentView.h */,
+				78BB74EF1CF1592A00B0049B /* JHContentView.m */,
+				78BB74F01CF1592A00B0049B /* JHCustomLabel.h */,
+				78BB74F11CF1592A00B0049B /* JHCustomLabel.m */,
+				78BB74F21CF1592A00B0049B /* JHScrollPageView.h */,
+				78BB74F31CF1592A00B0049B /* JHScrollPageView.m */,
+				78BB74F41CF1592A00B0049B /* JHScrollSegmentView.h */,
+				78BB74F51CF1592A00B0049B /* JHScrollSegmentView.m */,
+				78BB74F61CF1592A00B0049B /* JHSegmentStyle.h */,
+				78BB74F71CF1592A00B0049B /* JHSegmentStyle.m */,
+				78BB74F81CF1592A00B0049B /* UIView+JHFrame.h */,
+				78BB74F91CF1592A00B0049B /* UIView+JHFrame.m */,
+			);
+			path = "频道切换视图";
+			sourceTree = "<group>";
+		};
+		78BB750A1CF1620F00B0049B /* 频道新闻数据 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB750B1CF1629300B0049B /* HLChannelNewsModel.h */,
+				78BB750C1CF1629300B0049B /* HLChannelNewsModel.m */,
+			);
+			path = "频道新闻数据";
+			sourceTree = "<group>";
+		};
+		78BB750E1CF16DAF00B0049B /* 其他视图 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB75101CF16E9000B0049B /* 推荐Headers视图 */,
+				78BB750F1CF16DAF00B0049B /* 轮播 */,
+			);
+			path = "其他视图";
+			sourceTree = "<group>";
+		};
+		78BB750F1CF16DAF00B0049B /* 轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB751E1CF1728100B0049B /* 无限轮播图 */,
+			);
+			path = "轮播";
+			sourceTree = "<group>";
+		};
+		78BB75101CF16E9000B0049B /* 推荐Headers视图 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB75111CF16ED100B0049B /* HLRecommendHeaderView.h */,
+				78BB75121CF16ED100B0049B /* HLRecommendHeaderView.m */,
+				78BB75141CF16EF000B0049B /* HLRecommendSliderView.h */,
+				78BB75151CF16EF000B0049B /* HLRecommendSliderView.m */,
+				78BB75171CF16F0600B0049B /* HLRecommendBlockView.h */,
+				78BB75181CF16F0600B0049B /* HLRecommendBlockView.m */,
+				78BB752B1CF174BA00B0049B /* HLBlockItemView.h */,
+				78BB752C1CF174BA00B0049B /* HLBlockItemView.m */,
+			);
+			path = "推荐Headers视图";
+			sourceTree = "<group>";
+		};
+		78BB751E1CF1728100B0049B /* 无限轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB751F1CF1728100B0049B /* 图片 */,
+				78BB75201CF1728100B0049B /* 数据源 */,
+				78BB75231CF1728100B0049B /* 视图 */,
+			);
+			path = "无限轮播图";
+			sourceTree = "<group>";
+		};
+		78BB751F1CF1728100B0049B /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		78BB75201CF1728100B0049B /* 数据源 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB75211CF1728100B0049B /* LJHShufflingModel.h */,
+				78BB75221CF1728100B0049B /* LJHShufflingModel.m */,
+			);
+			path = "数据源";
+			sourceTree = "<group>";
+		};
+		78BB75231CF1728100B0049B /* 视图 */ = {
+			isa = PBXGroup;
+			children = (
+				78BB75241CF1728100B0049B /* LJHBaseShufflingView.h */,
+				78BB75251CF1728100B0049B /* LJHBaseShufflingView.m */,
+				78BB75261CF1728100B0049B /* LJHShufflingCell.h */,
+				78BB75271CF1728100B0049B /* LJHShufflingCell.m */,
+			);
+			path = "视图";
 			sourceTree = "<group>";
 		};
 		C4175FB61469B5CACD82C1D2 /* Frameworks */ = {
@@ -578,11 +744,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78BB74D71CF1540400B0049B /* HXWRecommendedVC.xib in Resources */,
+				78BB75441CF1EE5300B0049B /* JHImageView.xib in Resources */,
 				782C6FE41CF0AE940032A10D /* LaunchScreen.storyboard in Resources */,
 				782C6FE11CF0AE940032A10D /* Assets.xcassets in Resources */,
+				78BB75361CF19BC000B0049B /* HLImageView.xib in Resources */,
+				78BB75041CF15A2700B0049B /* HLRecommendedVC.xib in Resources */,
 				78BB74D21CF153D600B0049B /* HLChannelRootVC.xib in Resources */,
 				782C6FDF1CF0AE940032A10D /* Main.storyboard in Resources */,
+				78BB75091CF15F5D00B0049B /* HLNewsNormalCell.xib in Resources */,
 				78BB74EC1CF157CB00B0049B /* HLUserVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,14 +825,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BB74FF1CF1592A00B0049B /* UIView+JHFrame.m in Sources */,
+				78BB75081CF15F5D00B0049B /* HLNewsNormalCell.m in Sources */,
+				78BB75161CF16EF000B0049B /* HLRecommendSliderView.m in Sources */,
+				78BB74FA1CF1592A00B0049B /* JHContentView.m in Sources */,
+				78BB75131CF16ED100B0049B /* HLRecommendHeaderView.m in Sources */,
 				78BB74E41CF1557400B0049B /* HLDrawerVisualStateManager.m in Sources */,
 				78BB74EB1CF157CB00B0049B /* HLUserVC.m in Sources */,
+				78BB75281CF1728100B0049B /* LJHShufflingModel.m in Sources */,
 				782C6FDC1CF0AE940032A10D /* ViewController.m in Sources */,
 				782C6FD91CF0AE940032A10D /* AppDelegate.m in Sources */,
 				78BB74D11CF153D600B0049B /* HLChannelRootVC.m in Sources */,
-				78BB74D61CF1540400B0049B /* HXWRecommendedVC.m in Sources */,
+				78BB752D1CF174BA00B0049B /* HLBlockItemView.m in Sources */,
+				78BB74FD1CF1592A00B0049B /* JHScrollSegmentView.m in Sources */,
+				78BB74FC1CF1592A00B0049B /* JHScrollPageView.m in Sources */,
+				78BB750D1CF1629300B0049B /* HLChannelNewsModel.m in Sources */,
 				78BB74E01CF154C700B0049B /* HLNavigationController.m in Sources */,
+				78BB75031CF15A2700B0049B /* HLRecommendedVC.m in Sources */,
+				78BB74FE1CF1592A00B0049B /* JHSegmentStyle.m in Sources */,
+				78BB75301CF17F0300B0049B /* HLImageView.m in Sources */,
 				782C6FD61CF0AE940032A10D /* main.m in Sources */,
+				78BB75191CF16F0600B0049B /* HLRecommendBlockView.m in Sources */,
+				78BB752A1CF1728100B0049B /* LJHShufflingCell.m in Sources */,
+				78BB74FB1CF1592A00B0049B /* JHCustomLabel.m in Sources */,
+				78BB75291CF1728100B0049B /* LJHBaseShufflingView.m in Sources */,
+				78BB75421CF1EE4600B0049B /* JHImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

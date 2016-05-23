@@ -287,7 +287,7 @@
     
     _oldIndex = _currentIndex;
     if (self.titleBtnOnClick) {
-        HLog(@"%lu",(unsigned long)_currentIndex);
+        DLog(@"%lu",(unsigned long)_currentIndex);
         self.titleBtnOnClick(currentLabel, _currentIndex);
     }
     

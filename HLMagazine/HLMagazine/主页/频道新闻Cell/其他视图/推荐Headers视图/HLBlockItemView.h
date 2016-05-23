@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HLImageView.h"
 
 @interface HLBlockItemView : UIView
+@property (nonatomic, strong) HLImageView *newsThumbImageView;
 
 @end

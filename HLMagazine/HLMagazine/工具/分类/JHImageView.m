@@ -9,6 +9,10 @@
 #import "JHImageView.h"
 
 @implementation JHImageView
+- (void)awakeFromNib {
+    [super awakeFromNib];
+ _nightMaskImageView.dk_backgroundColorPicker = DKColorPickerWithColors([UIColor clearColor],[UIColor colorWithRed:0/255.0 green:0 blue:0 alpha:0.4],[UIColor clearColor]);
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

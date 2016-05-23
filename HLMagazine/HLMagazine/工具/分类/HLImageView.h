@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIView+Night.h"
+#import "UIImageView+Night.h"
 
-@interface HLImageView : UIImageView
+@interface HLImageView : UIView
+@property (weak, nonatomic) IBOutlet UIImageView *nightMaskImageView;
 
 @end
