@@ -1,18 +1,18 @@
 //
-//  HXWRecommendedVC.m
+//  HLRecommendedVC.m
 //  HLMagazine
 //
 //  Created by huaxianwei on 16/5/22.
 //  Copyright © 2016年 Jim. All rights reserved.
 //
 
-#import "HXWRecommendedVC.h"
+#import "HLRecommendedVC.h"
 
-@interface HXWRecommendedVC ()
+@interface HLRecommendedVC ()
 
 @end
 
-@implementation HXWRecommendedVC
+@implementation HLRecommendedVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

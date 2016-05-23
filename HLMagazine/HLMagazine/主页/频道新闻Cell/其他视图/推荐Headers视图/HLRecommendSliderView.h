@@ -1,5 +1,5 @@
 //
-//  HXWRecommendedVC.h
+//  HLRecommendSliderView.h
 //  HLMagazine
 //
 //  Created by huaxianwei on 16/5/22.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-/*
- *  推荐频道控制器
- */
-@interface HXWRecommendedVC : UIViewController
+
+@interface HLRecommendSliderView : UIView
 
 @end
